@@ -13,15 +13,8 @@ Notes & Instructions:
    If you'd prefer to host the logo locally, download the image and replace the <img> src
    in index.html with 'images/ekya-logo.png' and update the favicon link similarly.
 
-2. Hero & section images use Unsplash-hosted images via URL. These will load when the site
-   is hosted on the web. If you want all images offline, download and place them into an
-   images/ folder and update the src/background-image urls in index.html/style.css.
-
-3. To host on GitHub Pages:
-   - Create a new repository (e.g., ekya-landing).
-   - Upload the files in this ZIP to the repository root.
-   - Go to Settings -> Pages -> Source -> Select 'main' branch and root (/) -> Save.
-   - Visit https://<your-username>.github.io/<repo-name>/ after a minute to view.
+2. Hero & section images use Unsplash-hosted images via URL. These will load when the site is up
+  
 
 4. Replace testimonial names/content or logo if you have official assets. The ad code
    placeholder is left as an HTML comment: <!-- Ad code here -->
