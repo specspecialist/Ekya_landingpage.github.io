@@ -8,7 +8,7 @@ Files included:
 
 Notes & Instructions:
 1. The site uses the Ekya Schools logo hosted on Wikimedia Commons:
-   https://upload.wikimedia.org/wikipedia/commons/9/9a/Ekya_Schools_logo.png
+https://en.wikipedia.org/wiki/File:Ekya-Schools-Bangalore.png
    This file is licensed CC BY-SA — attribution is required if you reuse/modify it. 
    If you'd prefer to host the logo locally, download the image and replace the <img> src
    in index.html with 'images/ekya-logo.png' and update the favicon link similarly.
