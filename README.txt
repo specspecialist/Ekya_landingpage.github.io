@@ -24,7 +24,3 @@ Attribution for logo (Wikimedia):
  - License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
  - Source: https://commons.wikimedia.org/wiki/File:Ekya_Schools_logo.png
 
-If you want, I can also:
- - Replace external image links with local images bundled in the ZIP (need image files).
- - Produce a version with inline-critical CSS for faster ad performance.
- - Create a short README with exact Git commands to push from your local machine.
