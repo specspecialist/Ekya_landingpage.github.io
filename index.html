@@ -4,23 +4,29 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Ekya Schools — Where Learning Comes Alive</title>
+  <!-- Google Fonts (close match to Ekya site) -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/7/7b/Ekya-Schools-Bangalore.png" type="image/png" />
+  <!-- Font Awesome for Scroll Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- LOGO LINK FIXED (Favicon) -->
+  <link rel="icon" href="https://raw.githubusercontent.com/specspecialist/Ekyaschool-landing-page/5cdb81d69b9f11e0bf4ea305c43fe42151f6e63f/images%20(7).jpeg" type="image/jpeg" />
   <link rel="stylesheet" href="style.css">
-  -->
+  <!-- Placeholder for ad code -->
+  <!-- Ad code placeholder: <!-- Ad code here --> -->
 </head>
 <body>
   <header class="site-header">
     <nav class="nav container">
       <div class="brand">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Ekya-Schools-Bangalore.png" alt="Ekya Schools logo" class="logo">
+        <!-- LOGO HYPERLINK & LINK -->
+        <a href="javascript:window.location.reload()" class="logo-link">
+            <img src="https://raw.githubusercontent.com/specspecialist/Ekyaschool-landing-page/5cdb81d69b9f11e0bf4ea305c43fe42151f6e63f/images%20(7).jpeg" alt="Ekya Schools logo" class="logo">
+        </a>
       </div>
       <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#curriculum">Curriculum</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-        <li><a href="#faqs">FAQs</a></li>
-        <li><a class="cta" href="https://ekyaschools.com/contact/">Contact Admissions</a></li>
+        <li><a class="cta enquire-cta" href="#admissions-form-in-about">Enquire Now</a></li>
+        <li><a class="cta apply-cta" href="#admissions-form-in-about">Apply Now</a></li>
       </ul>
     </nav>
 
@@ -28,28 +34,85 @@
       <div class="hero-inner">
         <h1>Where Learning Comes Alive</h1>
         <p class="lead">A progressive K-12 school network blending inquiry-led learning with character development and creative exploration.</p>
-        <a class="primary-btn" href="https://ekyaschools.com/contact/">Contact Admissions</a>
-        <div class="hero-credits">Hero image sourced from Unsplash</div>
+        <a class="primary-btn" href="#admissions-form-in-about">Apply Now</a>
       </div>
       <div class="hero-image" aria-hidden="true"></div>
     </section>
   </header>
 
+  <!-- IMAGE CAROUSEL SECTION -->
+  <section id="image-carousel" class="carousel-section">
+      <div class="carousel-container">
+          <div class="carousel-track">
+              <div class="carousel-slide">
+                  <img src="https://raw.githubusercontent.com/specspecialist/Ekyaschool-landing-page/db63056c6839f078ba280b394474807abb7a1eca/mira-kireeva-2Fsc8ICRGbM-unsplash.jpg" alt="Campus Life 1" />
+              </div>
+              <div class="carousel-slide">
+                  <img src="https://raw.githubusercontent.com/specspecialist/Ekyaschool-landing-page/db63056c6839f078ba280b394474807abb7a1eca/taylor-flowe-4nKOEAQaTgA-unsplash.jpg" alt="Campus Life 2" />
+              </div>
+              <div class="carousel-slide">
+                  <img src="https://raw.githubusercontent.com/specspecialist/Ekyaschool-landing-page/db63056c6839f078ba280b394474807abb7a1eca/kenny-eliason-zFSo6bnZJTw-unsplash.jpg" alt="Campus Life 3" />
+              </div>
+          </div>
+          <button class="carousel-btn prev" aria-label="Previous Slide"><i class="fas fa-chevron-left"></i></button>
+          <button class="carousel-btn next" aria-label="Next Slide"><i class="fas fa-chevron-right"></i></button>
+          <div class="carousel-dots">
+              <span class="dot active" data-slide="0"></span>
+              <span class="dot" data-slide="1"></span>
+              <span class="dot" data-slide="2"></span>
+          </div>
+      </div>
+  </section>
+
+  <!-- SECTION SCROLL BUTTONS -->
+  <div class="scroll-nav">
+      <div class="container button-group">
+          <button class="scroll-btn" data-target="#admissions-form-in-about"><i class="fas fa-file-alt"></i> Apply</button>
+          <button class="scroll-btn" data-target="#about"><i class="fas fa-school"></i> About</button>
+          <button class="scroll-btn" data-target="#curriculum"><i class="fas fa-book-reader"></i> Curriculum</button>
+          <button class="scroll-btn" data-target="#testimonials"><i class="fas fa-comments"></i> Testimonials</button>
+          <button class="scroll-btn" data-target="#faqs"><i class="fas fa-question-circle"></i> FAQs</button>
+      </div>
+  </div>
+
   <main>
+    
     <section id="about" class="container about-section">
-      <div class="grid">
-        <div class="card">
-          <h2>About Ekya</h2>
-          <p>Ekya Schools (est. 2010) are progressive K-12 schools in Bengaluru with a focus on personalised learning, inquiry, and real-world projects. With multiple campuses and international curricula options, Ekya prepares learners for a global future.</p>
-          <ul class="highlights">
-            <li><strong>15+ years</strong> of educational excellence</li>
-            <li><strong>5+ campuses</strong> across Bangalore</li>
-            <li><strong>Curricula:</strong> CBSE, ICSE, IGCSE (varies by campus)</li>
-          </ul>
+      <!-- FORM AND CONTENT GRID -->
+      <div class="grid about-form-grid">
+        <div class="content-wrapper">
+            <h2>About Ekya</h2>
+            <p>Ekya Schools (est. 2010) are progressive K-12 schools in Bengaluru with a focus on personalised learning, inquiry, and real-world projects. With multiple campuses and international curricula options, Ekya prepares learners for a global future.</p>
+            <ul class="highlights">
+                <li><strong>15+ years</strong> of educational excellence</li>
+                <li><strong>5+ campuses</strong> across Bangalore</li>
+                <li><strong>Curricula:</strong> CBSE, ICSE, IGCSE (varies by campus)</li>
+            </ul>
+            <div class="card image-card">
+              <img src="https://raw.githubusercontent.com/specspecialist/Ekyaschool-landing-page/db63056c6839f078ba280b394474807abb7a1eca/kenny-eliason-zFSo6bnZJTw-unsplash.jpg" alt="Students learning" />
+            </div>
         </div>
-        <div class="card image-card">
-          <img src="https://images.unsplash.com/photo-1529078484421-7d0f8f0e6c10?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=1" alt="Students learning" />
+
+        <!-- STICKY ADMISSIONS FORM -->
+        <div class="card cta-card form-card sticky-form-wrapper" id="admissions-form-in-about">
+            <h2>Admissions Enquiry</h2>
+            <p>Fill out the form below and our admissions counsellor will contact you shortly.</p>
+            <form action="https://ekyaschools.com/admission/" method="GET" class="admissions-form">
+                <input type="text" name="parent_name" placeholder="Parent Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+                <input type="tel" name="phone" placeholder="Phone Number" required>
+                <select name="grade" required>
+                    <option value="">Select Grade of Interest</option>
+                    <option value="early_years">Early Years</option>
+                    <option value="primary">Primary School</option>
+                    <option value="middle">Middle School</option>
+                    <option value="senior">Senior School</option>
+                </select>
+                <textarea name="message" placeholder="Your Message / Specific Questions"></textarea>
+                <button type="submit" class="primary-btn large">Submit Enquiry</button>
+            </form>
         </div>
+
       </div>
     </section>
 
@@ -73,18 +136,31 @@
     </section>
 
     <section id="testimonials" class="container testimonials">
-      <h2>What Parents & Students Say</h2>
-      <div class="grid three">
-        <div class="card quote">
-          <p>"Ekya's personalised attention helped my child develop confidence and curiosity. The teachers truly care."<br/><strong>- Ananya Sharma, Parent</strong></p>
+        <div class="testimonial-header">
+            <h2>What Parents & Students Say</h2>
+            <div class="scroll-controls">
+                <button class="testimonial-scroll-btn prev" data-scroll="-1"><i class="fas fa-chevron-left"></i></button>
+                <button class="testimonial-scroll-btn next" data-scroll="1"><i class="fas fa-chevron-right"></i></button>
+            </div>
         </div>
-        <div class="card quote">
-          <p>"The project-based approach made learning fun. I loved presenting my science project to the whole school!"<br/><strong>- Rohan Mehta, Student (Grade 7)</strong></p>
+        <div class="testimonials-scroll-wrapper">
+          <div class="grid three testimonials-content">
+            <div class="card quote">
+              <p>"Ekya's personalised attention helped my child develop confidence and curiosity. The teachers truly care."<br/><strong>- Ananya Sharma, Parent</strong></p>
+            </div>
+            <div class="card quote">
+              <p>"The project-based approach made learning fun. I loved presenting my science project to the whole school!"<br/><strong>- Rohan Mehta, Student (Grade 7)</strong></p>
+            </div>
+            <div class="card quote">
+              <p>"From sports to arts, Ekya gave my daughter the space to explore her strengths."<br/><strong>- Meera Iyer, Parent</strong></p>
+            <div class="card quote desktop-only">
+              <p>"The personalized attention here is unmatched. It truly is learning that comes alive."<br/><strong>- Rajesh Menon, Parent</strong></p>
+            </div>
+            <div class="card quote desktop-only">
+              <p>"I feel prepared for college thanks to the career guidance and strong curriculum."<br/><strong>- Priya Singh, Student (Grade 12)</strong></p>
+            </div>
+          </div>
         </div>
-        <div class="card quote">
-          <p>"From sports to arts, Ekya gave my daughter the space to explore her strengths."<br/><strong>- Meera Iyer, Parent</strong></p>
-        </div>
-      </div>
     </section>
 
     <section id="faqs" class="container faqs">
@@ -101,27 +177,17 @@
         </details>
 
         <details>
-          <summary>What age groups do you accept?</summary>
-          <p>Ekya accepts children from Early Years (ages 3+) through Grade 12. Specific intake ages vary by program and campus.</p>
-        </details>
-
-        <details>
           <summary>How can parents apply?</summary>
           <p>Admissions details and application forms are available on the official Ekya contact page. We recommend scheduling a campus visit or counselling session.</p>
         </details>
-
-        <details>
-          <summary>Does Ekya offer extracurricular activities?</summary>
-          <p>Yes — arts, music, sports, design thinking labs and community programs are part of the holistic curriculum.</p>
-        </details>
       </div>
     </section>
-
+    
     <section id="contact" class="container contact-section">
       <div class="card cta-card">
         <h2>Ready to Learn More?</h2>
-        <p>Schedule a visit or get in touch with admissions.</p>
-        <a class="primary-btn large" href="https://ekyaschools.com/contact/">Contact Admissions</a>
+        <p>Schedule a visit or apply directly through our admissions portal.</p>
+        <a class="primary-btn large" href="#admissions-form-in-about">Enquire Now</a>
       </div>
     </section>
   </main>
@@ -138,7 +204,7 @@
   </footer>
 
   <script>
-    // Smooth scroll for internal links
+    // All smooth scroll and carousel functions remain the same
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -146,6 +212,65 @@
         if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
       });
     });
+
+    document.querySelectorAll('.scroll-btn').forEach(button => {
+        button.addEventListener('click', function() {
+            const targetId = this.getAttribute('data-target');
+            const target = document.querySelector(targetId);
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+    });
+
+    document.querySelectorAll('.testimonial-scroll-btn').forEach(button => {
+        button.addEventListener('click', function() {
+            const wrapper = document.querySelector('.testimonials-scroll-wrapper');
+            const direction = parseInt(this.getAttribute('data-scroll'));
+            const cardElement = document.querySelector('.testimonials-content .card');
+            const cardWidth = cardElement ? cardElement.offsetWidth : 300; 
+            const gap = 20; 
+            const scrollDistance = (cardWidth + gap) * direction;
+
+            wrapper.scrollBy({
+                left: scrollDistance,
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    // CAROUSEL SCRIPT
+    let currentSlide = 0;
+    const track = document.querySelector('.carousel-track');
+    const slides = document.querySelectorAll('.carousel-slide');
+    const dots = document.querySelectorAll('.carousel-dots .dot');
+    const totalSlides = slides.length;
+
+    function updateCarousel() {
+        const offset = currentSlide * -100;
+        track.style.transform = `translateX(${offset}%)`;
+        
+        dots.forEach((dot, index) => {
+            dot.classList.toggle('active', index === currentSlide);
+        });
+    }
+
+    function moveSlide(direction) {
+        currentSlide = (currentSlide + direction + totalSlides) % totalSlides;
+        updateCarousel();
+    }
+
+    document.querySelector('.carousel-btn.next').addEventListener('click', () => moveSlide(1));
+    document.querySelector('.carousel-btn.prev').addEventListener('click', () => moveSlide(-1));
+    
+    dots.forEach(dot => {
+        dot.addEventListener('click', (e) => {
+            currentSlide = parseInt(e.target.dataset.slide);
+            updateCarousel();
+        });
+    });
+
+    updateCarousel(); 
   </script>
 </body>
 </html>
